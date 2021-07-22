@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Container= styled.header`
-    height:58.1rem;
+    height:51.1rem;
     background:#FCDB00 ;
     
 `
@@ -32,9 +32,42 @@ export const Content= styled.div`
 export const Container2 = styled.div`
     height:58.1rem;
     background:white ;
+    
 `
 export const Footer=styled.footer`
     height:58.1rem;
     background:black ;
 
 `
+export const Content2= styled.div`
+    
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    max-width:1120px;
+    margin:5rem auto;
+    padding: 1rem 1rem 12rem;
+    
+   
+    h1{
+        
+        font-weight: 700;
+       
+    }
+    h2{
+        font-weight:400 ;
+        font-size:1rem;
+        
+    }
+    img{
+        margin:4rem
+    }
+    Button{
+        border:0;
+        font-weight: 700;
+        transition: filter 0.2s;
+        &:hover{
+            filter:brightness(0.8);
+        }
+    }
+    `

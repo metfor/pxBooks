@@ -4,7 +4,7 @@ import { ReactElement, cloneElement } from "react";
 
 interface ActiveLinkProps extends LinkProps{
     children:ReactElement;
-    activeClassName:string;
+    activeClassName?:string;
 }
 export function ActiveLink({children,activeClassName,...rest}:ActiveLinkProps){
     const { asPath }=useRouter()
