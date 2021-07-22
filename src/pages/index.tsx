@@ -1,4 +1,6 @@
-import { Content, Container,Container2, Footer } from "./stylesHome"
+import { ActiveLink } from "../components/ActiveLink"
+import { Button } from "../components/Button/styles"
+import { Content, Container,Container2, Footer, Content2 } from "./stylesHome"
 export default function Home() {
   return (
     <>
@@ -11,6 +13,7 @@ export default function Home() {
         <img src="/assets/Vector2.svg"alt="android"/>
         <img src="/assets/Vector1.svg"alt="windows"/>
         <img className="book" src="/assets/header-book.svg"alt="book"/>
+      
       </Content>
       
         
@@ -18,7 +21,19 @@ export default function Home() {
 
     </Container>
     <Container2>
-
+      <Content2>
+        <h1>Books</h1><br/>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed<br/> sem quis venenatis.</h2>
+        <img src="/assets/l1.svg" alt="livro1"/>
+        <img src="/assets/l2.svg" alt="livro1"/>
+        <img src="/assets/l3.svg" alt="livro1"/>
+        <img src="/assets/l4.svg" alt="livro1"/>
+        <img src="/assets/l1.svg" alt="livro1"/>
+        <img src="/assets/l2.svg" alt="livro1"/>
+        <img src="/assets/l3.svg" alt="livro1"/>
+        <img src="/assets/l4.svg" alt="livro1"/>
+        <ActiveLink href="/books"><Button>SEE MORE</Button></ActiveLink>
+      </Content2>
     </Container2>
     <Footer>
 
