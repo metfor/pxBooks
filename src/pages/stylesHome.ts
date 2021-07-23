@@ -19,7 +19,7 @@ export const Content= styled.div`
         font-weight: 700;
         margin-top: 8rem;
     }
-    h2{
+    p{
         font-weight:400 ;
         font-size:1rem;
         margin-top:2rem;
@@ -34,11 +34,7 @@ export const Container2 = styled.div`
     background:white ;
     
 `
-export const Footer=styled.footer`
-    height:58.1rem;
-    background:black ;
 
-`
 export const Content2= styled.div`
     
     justify-content: center;
@@ -54,7 +50,7 @@ export const Content2= styled.div`
         font-weight: 700;
        
     }
-    h2{
+    p{
         font-weight:400 ;
         font-size:1rem;
         
