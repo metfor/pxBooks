@@ -4,6 +4,7 @@ export const FooterN=styled.footer`
     height:58.1rem;
     background:black ;
     display:flex;
+    width: 100%;
   
 `
 export const Content= styled.div`
