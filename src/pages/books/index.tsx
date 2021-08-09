@@ -1,4 +1,4 @@
-import api from "../services/api";
+import api from "../../services/api";
 import Modal from "react-modal";
 import React, { useEffect, useState } from "react";
 import { BookBox, Container, Content } from "./styles";
