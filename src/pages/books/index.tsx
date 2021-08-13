@@ -1,9 +1,11 @@
 import api from "../../services/api";
-import Modal from "react-modal";
+
 import React, { useEffect, useState } from "react";
 import { BookBox, Container, Content } from "./styles";
+import Image from "next/image"
 
 import axios from "axios";
+import { NewModal } from "../../components/Modal";
 
 export default function Home() {
   const [currentDescription, setCurrentDescription] = useState("");
@@ -52,7 +54,7 @@ export default function Home() {
   const [books, setBooks] = useState({ items: [] });
   useEffect(() => {
     api
-      .get("/items")
+      .get("/volumes?q=HARRY%20POTTER/items")
       .then((response) => {
         setBooks(response.data);
       })
@@ -86,21 +88,14 @@ export default function Home() {
           })}
         </BookBox>
       </Content>
-      <Modal
-        isOpen={isOpen}
-        className="react-modal-content"
-        overlayClassName="react-modal-overlay"
-      >
-        <button onClick={handleCloseModal} className="react-modal-closed">
-          X
-        </button>
-        <img src={currentImgBook} className="react-modal-book" />
+      <NewModal isOpen={isOpen} onRequestClose={handleCloseModal}>
+     
         <h1>{currentBook.volumeInfo.title}</h1>
         <h2>
           {new Intl.DateTimeFormat("pt-br").format(new Date(currentDate))}
         </h2>
-        <p>{currentDescription}</p>
-      </Modal>
+        <p>{currentDescription}</p></NewModal>
     </Container>
   );
 }
+/*<Image src={currentImgBook}/ > */

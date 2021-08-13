@@ -1,6 +1,6 @@
 
 import  Button  from "../Button/index"
-import { FooterN,Content,MyInput, NetWork, Adress} from "./styles";
+import { FooterN,Content,MyInput, NetWork, Adress, P} from "./styles";
 
 export function Footer(){
     return(
@@ -8,7 +8,7 @@ export function Footer(){
             <FooterN>
                 <Content>
                     <h1>Keep in touch with us</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem<br/> quis venenatis.</p>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem<br/> quis venenatis.</P>
                     <div>
                         <MyInput placeholder=" enter your email to update" /><Button width="6.75rem" height="1.875rem">submit</Button>
                     </div>
@@ -19,28 +19,28 @@ export function Footer(){
                         <a><img src="/assets/px.svg" alt="facebook"/></a>
                     </NetWork>
                     <Adress>
-                        <p>
+                        <P>
                             Alameda Santos, 1970<br/>
                             6th floor - Jardim Paulista<br/>
                             São Paulo - SP<br/>
                             +55 11 3090 8500 <br/>   
-                        </p>
-                        <p>
+                        </P>
+                        <P>
                             London - UK<br/>
                             125 Kingsway<br/>
                             London WC2B 6NH <br/>
-                        </p>
-                        <p>
+                        </P>
+                        <P>
                             Lisbon - Portugal<br/>
                             Rua Rodrigues Faria, 103<br/>
                             4th floor<br/>
                             Lisbon - Portugal  <br/>
-                        </p>
-                        <p>
+                        </P>
+                        <P>
                         Curitiba – PR<br/>
                         R. Francisco Rocha, 198<br/>
                         Batel – Curitiba – PR   <br/>
-                        </p>
+                        </P>
                     </Adress>
                 </Content>
             </FooterN>
