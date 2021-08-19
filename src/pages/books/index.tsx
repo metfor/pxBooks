@@ -2,7 +2,7 @@ import api from "../../services/api";
 
 import React, { useEffect, useState } from "react";
 import { BookBox, Container, Content } from "./styles";
-import Image from "next/image"
+import Image from "next/image";
 
 import axios from "axios";
 import { NewModal } from "../../components/Modal";
@@ -89,12 +89,12 @@ export default function Home() {
         </BookBox>
       </Content>
       <NewModal isOpen={isOpen} onRequestClose={handleCloseModal}>
-     
         <h1>{currentBook.volumeInfo.title}</h1>
         <h2>
           {new Intl.DateTimeFormat("pt-br").format(new Date(currentDate))}
         </h2>
-        <p>{currentDescription}</p></NewModal>
+        <p>{currentDescription}</p>
+      </NewModal>
     </Container>
   );
 }
