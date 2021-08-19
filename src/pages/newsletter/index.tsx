@@ -1,6 +1,6 @@
 import { FormEvent, useContext, useState } from "react";
 import Button from "../../components/Button";
-import { Container, Content } from "./styles";
+import { Container, Content,MyInput } from "./styles";
 import { AuthContext } from "../../services/contexts/AuthContext";
 export default function Newsletter() {
   const [user, setUser] = useState("");
@@ -18,7 +18,7 @@ export default function Newsletter() {
     <>
       <Container>
         <Content onSubmit={handleSubmit}>
-          <input
+          <MyInput
             type="text"
             value={user}
             onChange={(e) => setUser(e.target.value)}

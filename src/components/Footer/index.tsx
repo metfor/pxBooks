@@ -1,39 +1,39 @@
 import Button from "../Button/index";
-import { FooterN, Content, MyInput, NetWork, Adress, P } from "./styles";
+import { FooterN, Content, MyInput, NetWork, Adress, Paragraph,Title ,Newss,MyImage,BoxImage} from "./styles";
 
 export function Footer() {
   return (
     <>
       <FooterN>
         <Content>
-          <h1>Keep in touch with us</h1>
-          <P>
+          <Title>Keep in touch with us</Title>
+          <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             vitae eros eget tellus tristique bibendum. Donec rutrum sed sem
             <br /> quis venenatis.
-          </P>
-          <div>
+          </Paragraph>
+          <Newss>
             <MyInput placeholder=" enter your email to update" />
             <Button width="6.75rem" height="1.875rem">
               submit
             </Button>
-          </div>
+          </Newss>
           <NetWork>
-            <a>
-              <img src="/assets/fb.svg" alt="facebook" />
-            </a>
-            <a>
-              <img src="/assets/tw.svg" alt="facebook" />
-            </a>
-            <a>
-              <img src="/assets/g+.svg" alt="facebook" />
-            </a>
-            <a>
-              <img src="/assets/px.svg" alt="facebook" />
-            </a>
+            <BoxImage>
+              <MyImage src="/assets/fb.svg" alt="facebook" width="43.75px" height="43.75px"/>
+            </BoxImage>
+            <BoxImage>
+              <MyImage src="/assets/tw.svg" alt="facebook" width="43.75px" height="43.75px"/>
+            </BoxImage>
+            <BoxImage>
+              <MyImage src="/assets/g+.svg" alt="facebook" width="43.75px" height="43.75px"/>
+            </BoxImage>
+            <BoxImage>
+              <MyImage src="/assets/px.svg" alt="facebook"width="43.75px" height="43.75px"/>
+            </BoxImage>
           </NetWork>
           <Adress>
-            <P>
+            <Paragraph>
               Alameda Santos, 1970
               <br />
               6th floor - Jardim Paulista
@@ -41,15 +41,15 @@ export function Footer() {
               São Paulo - SP
               <br />
               +55 11 3090 8500 <br />
-            </P>
-            <P>
+            </Paragraph>
+            <Paragraph>
               London - UK
               <br />
               125 Kingsway
               <br />
               London WC2B 6NH <br />
-            </P>
-            <P>
+            </Paragraph>
+            <Paragraph>
               Lisbon - Portugal
               <br />
               Rua Rodrigues Faria, 103
@@ -57,14 +57,14 @@ export function Footer() {
               4th floor
               <br />
               Lisbon - Portugal <br />
-            </P>
-            <P>
+            </Paragraph>
+            <Paragraph>
               Curitiba – PR
               <br />
               R. Francisco Rocha, 198
               <br />
               Batel – Curitiba – PR <br />
-            </P>
+            </Paragraph>
           </Adress>
         </Content>
       </FooterN>
