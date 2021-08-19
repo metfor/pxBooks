@@ -1,5 +1,5 @@
 import React from "react";
-import {MyButton} from "./styles"
+import { MyButton } from "./styles";
 interface Props {
   border?: string;
   color?: string;
@@ -8,38 +8,34 @@ interface Props {
   onClick?: () => void;
   radius?: string;
   width?: string;
-  type?:string;
- 
+  type?: string;
 }
 
-const Button: React.FC<Props> = ({ 
-    border,
-    color,
-    children,
-    height,
-    onClick, 
-    radius,
-    width,
-    type,
-    
-  }) => { 
+const Button: React.FC<Props> = ({
+  border,
+  color,
+  children,
+  height,
+  onClick,
+  radius,
+  width,
+  type,
+}) => {
   return (
     <MyButton
-      
       onClick={onClick}
       type="submit"
       style={{
-         backgroundColor: color,
-         border,
-         borderRadius: radius,
-         height,
-         width,
-         
+        backgroundColor: color,
+        border,
+        borderRadius: radius,
+        height,
+        width,
       }}
     >
-    {children}
+      {children}
     </MyButton>
   );
-}
+};
 
 export default Button;

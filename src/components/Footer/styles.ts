@@ -16,7 +16,7 @@ export const Content = styled.div`
   h1 {
     color: #fcdb00;
   }
-  
+
   div {
     margin-top: 4rem;
     Button {
