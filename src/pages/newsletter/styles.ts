@@ -11,11 +11,12 @@ export const Content = styled.form`
   padding: 1rem 1rem 12rem;
   justify-content: center;
 
-  input {
-    width: 15rem;
+
+`;
+export const MyInput=styled.input`
+width: 15rem;
     height: 1.875rem;
     margin-bottom: 1rem;
     border-radius: 0.3125rem;
     border: none;
-  }
-`;
+`
