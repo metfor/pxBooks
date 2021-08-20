@@ -85,7 +85,7 @@ export default function Home() {
                 }
               />
             );
-          })}
+          })}{" "}
         </BookBox>
       </Content>
       <NewModal isOpen={isOpen} onRequestClose={handleCloseModal}>

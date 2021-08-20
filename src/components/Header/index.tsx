@@ -1,23 +1,24 @@
 import { ActiveLink } from "../ActiveLink";
-import { Container, Content, NavLink } from "./styles";
+import { Container, Content, MyA, NavLink } from "./styles";
 import Link from "next/link";
+import { MyImage } from "../Footer/styles";
 
 export function Header() {
     return (
         <Container>
             <Content>
                 <Link href="/">
-                    <img src="/assets/logo.svg" alt="logo" />
+                    <MyImage src="/assets/logo.svg" alt="logo" width="149" height="43px"/>
                 </Link>
                 <NavLink>
                     <ActiveLink href="/books" activeClassName="active">
-                        <a>Books</a>
+                        <MyA>Books</MyA>
                     </ActiveLink>
                     <ActiveLink href="/newsletter" activeClassName="active">
-                        <a>Newsletter</a>
+                        <MyA>Newsletter</MyA>
                     </ActiveLink>
                     <ActiveLink href="/address" activeClassName="active">
-                        <a>Address</a>
+                        <MyA>Address</MyA>
                     </ActiveLink>
                 </NavLink>
             </Content>
