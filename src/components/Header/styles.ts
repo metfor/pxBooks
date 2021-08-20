@@ -11,21 +11,19 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  img {
-    width: 9.6rem;
-    height: 2.6rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
 `;
 export const NavLink = styled.nav`
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-left: 5rem;
   height: 5rem;
-  a {
-    display: inline-block;
+
+
+`;
+export const MyImg=styled(Image)`
+`
+export const MyA=styled.a`
+display: inline-block;
     position: relative;
     padding: 0 0.5rem;
     height: 6.5rem;
@@ -53,7 +51,5 @@ export const NavLink = styled.nav`
       left: 0;
       background: black;
     }
-  }
-`;
-export const MyImg=styled(Image)`
+
 `
