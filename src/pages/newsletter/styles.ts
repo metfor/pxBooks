@@ -10,13 +10,11 @@ export const Content = styled.form`
   margin: 1rem auto;
   padding: 1rem 1rem 12rem;
   justify-content: center;
-
-
 `;
-export const MyInput=styled.input`
-width: 15rem;
-    height: 1.875rem;
-    margin-bottom: 1rem;
-    border-radius: 0.3125rem;
-    border: none;
-`
+export const MyInput = styled.input`
+  width: 15rem;
+  height: 1.875rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3125rem;
+  border: none;
+`;

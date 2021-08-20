@@ -1,5 +1,16 @@
 import Button from "../Button/index";
-import { FooterN, Content, MyInput, NetWork, Adress, Paragraph,Title ,Newss,MyImage,BoxImage} from "./styles";
+import {
+  FooterN,
+  Content,
+  MyInput,
+  NetWork,
+  Adress,
+  Paragraph,
+  Title,
+  Newss,
+  MyImage,
+  BoxImage,
+} from "./styles";
 
 export function Footer() {
   return (
@@ -20,16 +31,36 @@ export function Footer() {
           </Newss>
           <NetWork>
             <BoxImage>
-              <MyImage src="/assets/fb.svg" alt="facebook" width="43.75px" height="43.75px"/>
+              <MyImage
+                src="/assets/fb.svg"
+                alt="facebook"
+                width="43.75px"
+                height="43.75px"
+              />
             </BoxImage>
             <BoxImage>
-              <MyImage src="/assets/tw.svg" alt="facebook" width="43.75px" height="43.75px"/>
+              <MyImage
+                src="/assets/tw.svg"
+                alt="facebook"
+                width="43.75px"
+                height="43.75px"
+              />
             </BoxImage>
             <BoxImage>
-              <MyImage src="/assets/g+.svg" alt="facebook" width="43.75px" height="43.75px"/>
+              <MyImage
+                src="/assets/g+.svg"
+                alt="facebook"
+                width="43.75px"
+                height="43.75px"
+              />
             </BoxImage>
             <BoxImage>
-              <MyImage src="/assets/px.svg" alt="facebook"width="43.75px" height="43.75px"/>
+              <MyImage
+                src="/assets/px.svg"
+                alt="facebook"
+                width="43.75px"
+                height="43.75px"
+              />
             </BoxImage>
           </NetWork>
           <Adress>

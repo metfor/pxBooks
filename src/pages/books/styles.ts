@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Container = styled.div`
   @media (max-width: 782) {
     height: 88.1rem;
@@ -24,3 +25,9 @@ export const BookBox = styled.div`
     margin: 2rem;
   }
 `;
+export const Title = styled.h1``;
+export const MyImage = styled.img`
+  margin: 2rem;
+`;
+export const Paragraph = styled.p``;
+export const DateBook = styled.h2``;
