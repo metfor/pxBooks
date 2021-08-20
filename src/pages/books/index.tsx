@@ -1,11 +1,12 @@
 import api from "../../services/api";
 
 import React, { useEffect, useState } from "react";
-import { BookBox, Container, Content } from "./styles";
+import { BookBox, Container, Content ,Title,MyImage,Paragraph,DateBook} from "./styles";
 import Image from "next/image";
 
 import axios from "axios";
 import { NewModal } from "../../components/Modal";
+
 
 export default function Home() {
   const [currentDescription, setCurrentDescription] = useState("");
@@ -69,7 +70,7 @@ export default function Home() {
         <BookBox>
           {books.items.map((book) => {
             return (
-              <img
+              <MyImage
                 onClick={() =>
                   handleOpenNewModal(
                     book.selfLink,
@@ -89,11 +90,12 @@ export default function Home() {
         </BookBox>
       </Content>
       <NewModal isOpen={isOpen} onRequestClose={handleCloseModal}>
-        <h1>{currentBook.volumeInfo.title}</h1>
-        <h2>
+      <Image src={currentImgBook} width="128" height="171" />
+        <Title>{currentBook.volumeInfo.title}</Title>
+        <DateBook>
           {new Intl.DateTimeFormat("pt-br").format(new Date(currentDate))}
-        </h2>
-        <p>{currentDescription}</p>
+        </DateBook>
+        <Paragraph>{currentDescription}</Paragraph>
       </NewModal>
     </Container>
   );

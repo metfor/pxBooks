@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ImgNext from "next/image"
+import ImgNext from "next/image";
 export const Container = styled.header`
   height: 51.1rem;
   background: #fcdb00;
@@ -19,8 +19,6 @@ export const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   padding: 1rem 1rem 12rem;
-
- 
 
   .book {
     margin-left: 45rem;
@@ -44,12 +42,9 @@ export const Content2 = styled.div`
   max-width: 1120px;
   margin: 5rem auto;
   padding: 1rem 1rem 12rem;
-  display:grid-template-columns
-  
-  
-  Button {
+  display:grid-template-columns Button {
     display: inline-flex;
-    
+
     border: 0;
     font-weight: 700;
     transition: filter 0.2s;
@@ -58,16 +53,10 @@ export const Content2 = styled.div`
     }
   }
 `;
-export const MyImage =styled(ImgNext)`
-
-   
-    
-  
-`
-export const BlockBook=styled.div`
-
-display: inline-flex;
-margin-top:3rem;
-margin-left: 8rem;
-margin-bottom: 1rem;
-`
+export const MyImage = styled(ImgNext)``;
+export const BlockBook = styled.div`
+  display: inline-flex;
+  margin-top: 3rem;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+`;

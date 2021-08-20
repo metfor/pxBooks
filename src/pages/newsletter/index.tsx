@@ -1,6 +1,6 @@
 import { FormEvent, useContext, useState } from "react";
 import Button from "../../components/Button";
-import { Container, Content,MyInput } from "./styles";
+import { Container, Content, MyInput } from "./styles";
 import { AuthContext } from "../../services/contexts/AuthContext";
 export default function Newsletter() {
   const [user, setUser] = useState("");

@@ -1,7 +1,16 @@
 import { ActiveLink } from "../components/ActiveLink";
 import Button from "../components/Button";
 import Image from "next/image";
-import { Content, Container, Container2, Content2, H1, P,MyImage,BlockBook } from "./stylesHome";
+import {
+  Content,
+  Container,
+  Container2,
+  Content2,
+  H1,
+  P,
+  MyImage,
+  BlockBook,
+} from "./stylesHome";
 export default function Home() {
   return (
     <>
@@ -53,28 +62,68 @@ export default function Home() {
             <br /> sem quis venenatis.
           </P>
           <BlockBook>
-          <MyImage src="/assets/l1.svg" alt="livro1" width="128px" height="171px"  />
+            <MyImage
+              src="/assets/l1.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l2.svg" alt="livro1"  width="128px" height="171px" />
+            <MyImage
+              src="/assets/l2.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l3.svg" alt="livro1"   width="128px" height="171px"/>
+            <MyImage
+              src="/assets/l3.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l4.svg" alt="livro1" width="128px" height="171px" />
+            <MyImage
+              src="/assets/l4.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l1.svg" alt="livro1" width="128px" height="171px" />
+            <MyImage
+              src="/assets/l1.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l2.svg" alt="livro1" width="128px" height="171px" />
+            <MyImage
+              src="/assets/l2.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l3.svg" alt="livro1" width="128px" height="171px" />
+            <MyImage
+              src="/assets/l3.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <BlockBook>
-          <MyImage src="/assets/l4.svg" alt="livro1"  width="128px" height="171px"/>
+            <MyImage
+              src="/assets/l4.svg"
+              alt="livro1"
+              width="128px"
+              height="171px"
+            />
           </BlockBook>
           <ActiveLink href="/books">
             <Button>SEE MORE</Button>
