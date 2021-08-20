@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image"
 export const Container = styled.header`
   height: 7.8rem;
   background: #fcdb00;
@@ -54,3 +55,5 @@ export const NavLink = styled.nav`
     }
   }
 `;
+export const MyImg=styled(Image)`
+`
