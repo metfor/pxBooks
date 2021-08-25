@@ -23,7 +23,7 @@ export function Header() {
             <MyA>Newsletter</MyA>
           </ActiveLink>
           <ActiveLink href="/address" activeClassName="active">
-            <MyA>Address</MyA>
+            <MyA id="address">Address</MyA>
           </ActiveLink>
         </NavLink>
       </Content>
