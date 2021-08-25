@@ -2,6 +2,8 @@ import image from "next/image";
 import styled from "styled-components";
 
 export const FooterN = styled.footer`
+  width: 100%;
+  min-width: 560px;
   height: 58.1rem;
   background: black;
   display: flex;
@@ -20,6 +22,9 @@ export const MyInput = styled.input`
   border-radius: 0.3rem;
   border: none;
   margin-right: 2rem;
+  @media screen and (max-width: 680px) {
+    margin-bottom: 1rem;
+  }
 `;
 export const NetWork = styled.div``;
 export const Adress = styled.div`
