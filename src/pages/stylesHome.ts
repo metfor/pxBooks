@@ -24,13 +24,13 @@ export const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   padding: 1rem 1rem 12rem;
-  @media(min-width:680px){
+  @media(min-width:1024px){
   .book {
     margin-left: 45rem;
     margin-top: -20rem;
   }
   }
-  @media(max-width:680px){
+  @media(max-width:1024px){
     .book{
       width: 50%;
       margin-left: 50%;
