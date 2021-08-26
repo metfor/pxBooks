@@ -54,78 +54,86 @@ export default function Home() {
       </Container>
       <Container2>
         <Content2>
-          <H1>Books</H1>
+          <H1 className="titleBooks">Books</H1>
           <br />
-          <P>
+          <P className="textBooks">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             vitae eros eget tellus tristique bibendum. Donec rutrum sed
             <br /> sem quis venenatis.
           </P>
-          <BlockBook>
+          <BlockBook className="imgBooks">
             <MyImage
+
               src="/assets/l1.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l2.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l3.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l4.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l1.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l2.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l3.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <BlockBook>
+          <BlockBook >
             <MyImage
+
               src="/assets/l4.svg"
               alt="livro1"
               width="128px"
               height="171px"
             />
           </BlockBook>
-          <ActiveLink href="/books">
+          <ActiveLink href="/books" >
             <Button>SEE MORE</Button>
           </ActiveLink>
         </Content2>
