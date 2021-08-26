@@ -14,7 +14,7 @@ export const H1 = styled.h1`
 `;
 export const P = styled.p`
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 2rem;
 
 `;
