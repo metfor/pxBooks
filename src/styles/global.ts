@@ -25,6 +25,9 @@ html{
         font-size:87.5%;
     }
 }
+body{
+  min-width :680px ;
+}
 .react-modal-overlay{
     background: rgba(0,0,0, 0.5);
     position:fixed;
@@ -81,7 +84,7 @@ html{
         position: absolute;
         margin-top:2.5rem ;
     }
-    
+
 }
 
 `;
